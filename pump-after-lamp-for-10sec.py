@@ -28,7 +28,7 @@ GPIO.output(in1,GPIO.HIGH)
 
 print "Switching on PUMP for 10 secs"
 GPIO.output(in2,GPIO.LOW)
-time.sleep(100)
+time.sleep(10)
 
 #This will clean up GPIO pins and light will be off
 GPIO.cleanup()
